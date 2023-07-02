@@ -1,6 +1,6 @@
 # 1.4.1: Why learn to program in C?
 	
-### It's a de facto substandard of languages, runs on all hardware, and gives you the most control over your system, imposing few constraints, leading to the ability to write programs that would be difficult in higher level languages.
+#### It's a de facto substandard of languages, runs on all hardware, and gives you the most control over your system, imposing few constraints, leading to the ability to write programs that would be difficult in higher level languages.
 
 # 1.42: Why learn about data structures and programming techniques?
 
