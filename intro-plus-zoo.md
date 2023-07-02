@@ -4,13 +4,13 @@
 
 # 1.42: Why learn about data structures and programming techniques?
 
-### Representing real world data requires thinking about how to organize it, which will subsequently benefit the overall organization of your program(s).
+#### Representing real world data requires thinking about how to organize it, which will subsequently benefit the overall organization of your program(s).
 
-### C does not provide tools for such data organization out of the box, as some languages do, which means building them is your responsibility: because they're predicated on concepts such as pointers and storage allocation, doing so will require attaining, and provide a much deeper understanding of how computers operate.
+#### C does not provide tools for such data organization out of the box, as some languages do, which means building them is your responsibility: because they're predicated on concepts such as pointers and storage allocation, doing so will require attaining, and provide a much deeper understanding of how computers operate.
 
 # 2.5.1/2: Creating, compiling and running a program.
 
-### A file saved with the extension `c` will indicate to a C compiler (or syntax highlighter) that the contexts are C source, for example:
+#### A file saved with the extension `c` will indicate to a C compiler (or syntax highlighter) that the contexts are C source, for example:
 
 ```C
 #include <stdio.h>
@@ -51,7 +51,7 @@ Now I will count from 1 to 10.
 `-o` allows you to specify the name of the output file, which is followed by the file name of your choice, and finally `count.c` is the name of the file we want to compile according to these *flags*: meaningful strings that alter the behavior of the command line program we're using, as we choose.
 
 
-### Originally, I wrote the return statement in the body of the for loop, causing the program to exit on the first iteration of the loop, which lead to a surprising (and amusingly contradictory):
+> Originally, when i first tried this, I wrote the return statement in the body of the for loop, causing the program to exit on the first iteration of the loop, which lead to a surprising (and amusingly contradictory):
 
 
 
@@ -66,6 +66,7 @@ Now I will count from 1 to 10.
 
 # 2.5.3: Notes on what the program does.
 
-### `#include <std.io>` brings in declarations for the basic input/output behaviors, such as `puts` and `printf`,
+#### `#include <std.io>` brings in declarations for the basic input/output behaviors, such as `puts` and `printf`,
 
-### int main(int argc, char **argv)
+#### int main(int argc, char **argv)
+
